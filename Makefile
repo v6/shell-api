@@ -1,0 +1,4 @@
+
+install:
+	sh install.sh
+

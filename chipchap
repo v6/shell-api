@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+if [[ "$1" == "__check__" ]];then
+  echo "wallet cash-in cash-out ticker swift exchange stats"
+  exit 0
+fi
+
+
+case $1 in
+  wallet)
+    ./requester.sh 
+  ;;
+
+  *)
+    echo "Section \"$1\" not implemented" >&2
+    exit 2
+  ;;
+
+esac
