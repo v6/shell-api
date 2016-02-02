@@ -1,6 +1,5 @@
-# shell-api
-Shell-API
+# Chip-Chap shell-api
+Command-line tools for Chip-Chap API
 
-Test Test test
-
+* Install
 `make install`
